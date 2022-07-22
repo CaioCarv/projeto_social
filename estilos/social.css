@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0px;
+}
+
+a {
+  display: block;
+  background-color: darkred;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: red;
+  transition: 0.8s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315);
+}
